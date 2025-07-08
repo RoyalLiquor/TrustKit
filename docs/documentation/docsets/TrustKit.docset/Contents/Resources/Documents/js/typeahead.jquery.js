@@ -1434,7 +1434,7 @@
                 });
                 return success;
             },
-            moveCursor: function moveCursoe(delta) {
+            moveCursor: function moveCursor(delta) {
                 var success = false;
                 ttEach(this.first(), function(t) {
                     success = t.moveCursor(delta);
